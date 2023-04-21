@@ -1,1 +1,54 @@
 /* Samir Orozco */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif
+}
+
+.img{
+    width: 100%;
+    border-radius: 0.2rem;
+}
+
+.img4, .img5, .img6{
+    padding-top: 15px;
+}
+
+.div-galery{
+    padding: 20rem;
+}
+
+.row{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 33.3%;
+    padding: 15px;
+}
+
+.column img{
+    margin-top: 5px;
+}
+
+@media(max-width: 1400px){
+    .column{
+        flex: 50%;
+    }
+}
+
+@media(max-width: 1000px){
+    .column{
+        flex: 100%;
+    }
+}
