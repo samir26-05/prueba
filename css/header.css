@@ -1,1 +1,28 @@
 /* Jose Rueda */
+header {
+    padding: 20px 0 0 0;
+    background: -moz-linear-gradient(left, #ffffff 0%, #0088ff 100%);
+    background: -webkit-linear-gradient(left, #ffffff 0%, #0088ff 100%);
+    background: linear-gradient(to right, #ffffff 0%, #0088ff 100%);
+}
+.encabezado{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+}
+.logo {
+    margin-bottom: 15px;
+    margin-right: 400px;
+}
+.redes {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#enlaces {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.submenu {
+    position: relative;
+}
