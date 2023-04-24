@@ -7,17 +7,31 @@
 
 #contentItemCarousel{
     height: 500px;
-    overflow: hidden;   
+    overflow: hidden;
+         
+}
+
+.itemCarousel ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 20s infinite;
+}
+
+.itemCarousel li{
+    width: 100%;
+    list-style: none;
+}
+
+.itemCarousel img{
+    width: 100%;
 }
 
 .itemCarousel {
     height: 100%;
-    position: relative;  
+    position: relative;   
 }
 
-.cardCarousel{
-    height: 100%;
-}
 
 .arrowCarousel {
     position: absolute;
@@ -28,15 +42,20 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    
 }
 
 #contentItemCarousel img{
+    transition: opacity .5s;
     flex: 0 0 100%;
     height: 100%;
     width: 100%;
     object-fit: cover;
-    scroll-snap-align: center;  
+    scroll-snap-align: center; 
+    display: flex;
+    
 }
+
 
 .text{
     position: absolute;
@@ -47,4 +66,18 @@
     text-align: center;
     margin: 50px;
     padding: 20px;
+}
+
+@keyframes cambio {
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+}
+.itemCarousel ul a{
+    color: aquamarine;
 }
