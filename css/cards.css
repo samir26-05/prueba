@@ -7,7 +7,7 @@
     border: 5px solid #5392ca;
 }
 
-.row{
+.row-cards{
     display: flex;
     padding: 5em;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@
     justify-content: space-around;
 }
 
-.column{
+.column-cards{
     flex: 10em;
     padding: 0 5em 5em 5em;
     
@@ -25,6 +25,7 @@
     margin: 0;
     padding: 5em 1em 2em 2em;
     position: relative;
+    background-color: #5392ca;
 }
 
 .Our-services{
@@ -45,6 +46,7 @@
     position: relative;
     justify-content: 0;
     left: -12px;
+    background-color: #5392ca;
 }
 
 .card{
@@ -52,18 +54,20 @@
     margin: 0;
     flex-direction: column;
     display: flex;
+    background-color: #5392ca;
     
 }
 
-.card .content{
+.card .content-cards{
     flex-grow: 1;
     flex-shrink: 1;
 }
 
-.content{
+.content-cards{
     position: relative;
     left: 0;
     right: 0;
+    background-color: #5392ca;
 }
 
 .button{  
