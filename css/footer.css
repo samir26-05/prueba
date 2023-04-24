@@ -1,1 +1,72 @@
 /* Edgardo de la Hoz */
+
+.footer {
+    background-color: rgb(37, 150, 190);
+    padding: 2.5%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer :hover {
+    background-color: aquamarine, aqua, black;
+}
+
+.containerfooter {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.footer-row {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer-links {
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-links h2 {
+    position: absolute;
+    top: 20px;
+    margin-top: 70px;
+    align-items: 22px;
+    color: white;
+
+}
+
+.footer-links a {
+
+    font-size: 22px;
+    color: white;
+}
+
+.a1 {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.footer-links i {
+
+    margin-left: 20px;
+    font-size: 27px;
+
+}
+
+.fa-facebook {
+
+    margin-left: 350px;
+}
+
+.d1 {
+    font-size: 22px;
+    margin-left: 100px;
+    text-decoration: none;
+}
